@@ -1,0 +1,113 @@
+ls   ->list
+ls is used to list files and directories in a directory.
+netstat -tulpn
+netstat -tulpn or -a,-u,tcp all have seperate meaning
+ displays all listening network ports 
+ along with the process ID and program using them.
+pwd(present working directory)
+  pwd stands for Present Working Directory and shows 
+the full path of the current directory
+yum install <package> 👍
+
+yum install <package> is used to download and install 
+software packages from repositories on RHEL/CentOS systems.
+-y is act as a flag for scheduling yes or no
+name --version
+df -h
+ to check the storage space
+ps -ef
+ checks the current port and pid of the application
+kill -<pid>
+ delete the particular pid
+top 
+ show the high cpu memory consuming
+rm -rf<file name>
+ remove the file 
+rmdir<folder name or directory>
+ remove the directory
+vi <filename>
+ open a excisting file or create the file
+vi file.txt
+set nu;
+ give number of rows
+cat 
+ just open the file 
+ping 
+ is used to check the connection between the two server
+cd ~
+ is used to go back to the root
+cd /log 
+ change to log
+mnf file to the another file 
+mnt cp 
+uptime 
+  time of the using the file
+history 
+ show all the commands give by the existing user
+curl<>
+ check url is or not
+head -n 100<>
+ head is show the top file
+tail -n 100<>
+ show the botton file
+> override
+ delete all the existing data and write new content
+>> append
+ add content in existing file
+httpd
+ service<>
+ start 
+ stop
+ rest
+ status
+date 
+ utc time is taken
+package manager 
+ yum amazon
+ apt -get ubuntu
+df -h
+ change to human readable code 
+
+
+
+vi opens the file
+
+You are in command mode (cannot type yet)
+
+2️⃣ Switch to Insert Mode
+
+Press:
+
+i
+
+
+Now you can type text
+
+3️⃣ Write / Edit Content
+
+Type whatever content you want in the file.
+
+4️⃣ Exit Insert Mode
+
+Press:
+
+Esc
+
+
+Back to command mode
+
+5️⃣ Save the File
+:w
+
+6️⃣ Save and Exit
+:wq
+
+7️⃣ Exit Without Saving (Optional)
+:q!
+
+Complete Flow (Interview Style)
+vi filename
+→ i (insert mode)
+→ type content
+→ Esc
+→ :wq
